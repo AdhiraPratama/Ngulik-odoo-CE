@@ -1,12 +1,12 @@
-# Dokumentasi Pengerjaan POC Validasi Penerimaan Produksi
+# Dokumentasi Pengerjaan POC Validasi Penerimaan Produksi adhira ganteng
 
 **Tanggal pembaruan: 29 Oktober 2026**  
-**Lingkungan: Odoo Enterprise saas-18.2 lokal, menggunakan Docker**  
+**dari: Odoo Enterprise saas-18.2 lokal, menggunakan Docker**  
 **Status: addon inti terpasang dan konfigurasi POC aktif; integrasi addon kantor menyusul.**
 
 ## 1. Tujuan pekerjaan
 
-Proyek ini dibuat untuk memisahkan proses pengiriman barang dari gudang dengan proses penerimaan oleh produksi.
+Proyek ini dibuat untuk memisahkan proses pengiriman barang dari gudang dengan proses penerimaan oleh produksi
 
 Dalam alur yang ingin diperbaiki, validasi pengiriman langsung menambah stok produksi. Padahal, barang mungkin masih dalam perjalanan atau belum diperiksa penerima. POC menambahkan lokasi penampungan bernama Virtual WH. Stok baru masuk ke lokasi produksi setelah penerima melakukan konfirmasi.
 
